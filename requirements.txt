@@ -29,6 +29,8 @@ scipy==1.13.1
 transformers==4.33.3
 torch==2.0.1
 
+# Sentence Transformers for semantic search
+sentence-transformers==2.2.2
+
 # Additional core dependency
 setuptools>=60.0.0  # Fixes distutils
-echo "sentence-transformers" >> requirements.txt
