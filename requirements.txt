@@ -27,10 +27,10 @@ scipy==1.13.1
 
 # Huggingface transformers and PyTorch for LLM usage
 transformers==4.33.3
-torch==2.0.1
+torch==2.4.1
 
 # Sentence Transformers for semantic search
 sentence-transformers==2.2.2
 
 # Additional core dependency
-setuptools>=60.0.0  # Fixes distutils
+setuptools>=60.0.0
