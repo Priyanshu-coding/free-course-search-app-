@@ -54,10 +54,12 @@ def display_categories_with_clickable_names():
                 resized_image = resize_image(image_path)
                 if resized_image:
                     st.image(resized_image, use_column_width=True)
-                if st.button(category):
-                    st.session_state.selected_category = category
             else:
-                st.error(f"Image for {category} not found.")
+                st.warning(f"Image for {category} not found.")
+
+            # Display category button
+            if st.button(category):
+                st.session_state.selected_category = category
 
 
 # Function to display courses under the selected category
