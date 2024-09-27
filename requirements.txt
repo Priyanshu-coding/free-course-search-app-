@@ -20,3 +20,5 @@ transformers==4.19.2  # Downgrade to avoid tokenizers build issue
 torch==2.4.1
 sentence-transformers==2.2.2  # Should work without tokenizers issue
 setuptools>=60.0.0
+rust>=1.0.0
+pip>=24.2
