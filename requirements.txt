@@ -16,8 +16,9 @@ attrs==24.2.0
 altair==5.4.1
 scikit-learn==1.5.2
 scipy==1.13.1
-transformers==4.11.3  # Downgraded to avoid tokenizers dependency
+transformers==4.12.5 # Downgraded to avoid tokenizers dependency
 torch==2.4.1
 sentence-transformers==2.2.2
 setuptools>=60.0.0
+tokenizers==0.10.3
 
