@@ -26,11 +26,12 @@ scikit-learn==1.5.2
 scipy==1.13.1
 
 # Huggingface transformers and PyTorch for LLM usage
-transformers==4.33.3
+transformers==4.29.2  # Downgrade transformers to a version without Rust dependency
 torch==2.4.1
 
 # Sentence Transformers for semantic search
 sentence-transformers==2.2.2
+tokenizers==0.13.1  # Use an older version of tokenizers that doesn’t require Rust
 
 # Additional core dependency
 setuptools>=60.0.0
