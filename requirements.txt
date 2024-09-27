@@ -3,35 +3,21 @@ fuzzywuzzy==0.18.0
 python-Levenshtein==0.26.0
 GitPython==3.1.43
 gitdb==4.0.11
-
-# JSON handling and validation
 jsonschema==4.23.0
 jsonschema-specifications==2023.12.1
-
-# Job management and tools
 joblib==1.4.2
 filelock==3.16.1
-
-# Web utilities and other core libraries
 requests==2.32.3
 Jinja2==3.1.4
 MarkupSafe==2.1.5
 click==8.1.7
 blinker==1.8.2
 attrs==24.2.0
-
-# Miscellaneous tools
 altair==5.4.1
 scikit-learn==1.5.2
 scipy==1.13.1
-
-# Huggingface transformers and PyTorch for LLM usage
-transformers==4.29.2  # Downgrade transformers to a version without Rust dependency
+transformers==4.21.0  # Downgraded to avoid Rust compiler
 torch==2.4.1
-
-# Sentence Transformers for semantic search
 sentence-transformers==2.2.2
-tokenizers==0.13.1  # Use an older version of tokenizers that doesn’t require Rust
-
-# Additional core dependency
+tokenizers==0.12.1  # Downgraded to avoid Rust compiler
 setuptools>=60.0.0
